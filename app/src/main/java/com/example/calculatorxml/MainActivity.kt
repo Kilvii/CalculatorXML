@@ -107,7 +107,7 @@ class MainActivity : AppCompatActivity() {
                 }
 
                 val regNum = Regex("\\d")
-                val regOper = Regex("[\\+\\-*/]")
+                val regOper = Regex("[\\+\\–*/]")
                 val regDot = Regex("\\.")
 
                 if(regNum.matches(lastSymbol)){
